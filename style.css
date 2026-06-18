@@ -6,21 +6,21 @@
 
 @font-face {
   font-family: 'headerpixel';
-  src: url('pixelout.ttf') format('truetype');
+  src: url('fonts/pixelout.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'bodypixel';
-  src: url('bigpixel.otf') format('opentype');
+  src: url('fonts/bigpixel.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'finalpixel';
-  src: url('pixelate.ttf') format('truetype');
+  src: url('fonts/pixelate.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -45,7 +45,7 @@ html {
   align-items: center;
   position: relative;
   text-align: center;
-  background-image: url('gridbg.jpg');
+  background-image: url('images/background/gridbg.jpg');
   background-size: cover;
   background-repeat: repeat;
   background-position: center;
@@ -79,11 +79,11 @@ html {
 }
 
 .puzzle-screen {
-  min-height: 100vh;
+  min-height: 100vh; /* Ensures it's at least the full screen */
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url('paper.jpg');
+  background-image: url('images/background/paper.jpg');
   background-size: cover;
   background-repeat: repeat;
 }
@@ -153,7 +153,7 @@ button:hover {
 }
 
 .video-body {
-  background-image: url('vecteezy_craft-crumpled-paper-cardboard-page-background_13134036.jpg');
+  background-image: url('images/background/vecteezy_craft-crumpled-paper-cardboard-page-background_13134036.jpg');
   background-size: cover;
   background-repeat: repeat;
   background-position: center;
