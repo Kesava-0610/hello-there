@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hello There</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+
+    <section class="hello-screen">
+      <h1 class="greeting">Hello There !</h1>
+      <div class="scroll-prompt">↓ scroll down ↓</div>
+    </section>
+    
+    <section class="puzzle-screen">
+    <div class="puzzle-box">
+      <h2>Prove it's really you</h2>
+      <p>What's the one thing I always order in KC ?</p>
+      
+      <input type="text" id="puzzle-answer" placeholder="Type out">
+      <button onclick="checkPuzzle()">Unlock</button>
+      
+      <p id="error-message" style="color: red; display: none;">Nice try, but no. Try again!</p>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+  </body>
+</html>  
